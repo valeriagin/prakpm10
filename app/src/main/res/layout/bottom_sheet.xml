@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/sky_blue">
+
+        <!--текст для ботом шит и кнопки его закрытия-->
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="Rocky Mountaineer - поезд класса Люкс. Обслуживает два основных маршрута: Первый переход на Запад и Путешествие сквозь облака. Первый маршрут доставляет пассажиров из Ванкувера в Банфф или Лейк-Луиз, а второй маршрут - из Ванкувера в Джаспер. Оба маршрута предлагают потрясающие виды Канадских Скалистых гор, включая ледники, водопады и альпийские луга"
+            android:textColor="@color/teal_700"
+            android:textSize="27sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/butt_sheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/krest"
+            android:text="x"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

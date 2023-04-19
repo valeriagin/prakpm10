@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string-array name="TypesOfTrains">
+        <item>Rocky Mountaineer</item>
+        <item>Rovos Rail</item>
+        <item>Indian Pacific</item>
+        <item>Belmond Andean Explorer</item>
+    </string-array>
+</resources>
